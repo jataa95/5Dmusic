@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Kumbh_Sans, Playfair_Display, Zalando_Sans_Expanded } from "next/font/google";
 import "./globals.css";
+import OjdznCredit from "../components/OjdznCredit";
 
 const display = Zalando_Sans_Expanded({
   variable: "--font-display",
@@ -36,7 +37,9 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${display.variable} ${body.variable} ${serif.variable}`}>
-      <body>{children}</body>
+      <body>{children}
+        <OjdznCredit from="5dmusic" />
+      </body>
     </html>
   );
 }
