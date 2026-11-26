@@ -3,7 +3,7 @@ import { bestOf } from "@/content";
 import { PlayButton } from "./VideoModal";
 
 export default function About() {
-  const perf = bestOf[2];
+  const perf = bestOf.find((c) => c.id === "welcome")!;
   return (
     <section className="about section" id="about">
       <div className="about__media">
