@@ -60,17 +60,52 @@ export const voices: Clip[] = [
   },
 ];
 
-export const steps = [
-  { n: "01", name: "Listen", body: "We hear your sound first: who you are, what you've made, and where you want it to go." },
-  { n: "02", name: "Brand", body: "Image, story and presence across every social, built so people remember you." },
-  { n: "03", name: "Record", body: "Studio time with producers who push the song, even if it's your very first one." },
-  { n: "04", name: "Develop", body: "Coaching, sessions and a family of artists who move together, with no competition." },
-  { n: "05", name: "Release", body: "Your work goes out and your career moves faster, on a 5D level." },
+export const dimensions = [
+  {
+    n: "01",
+    name: "Sound",
+    tag: "Recording",
+    img: "/media/producer-desk.webp",
+    alt: "Producer in headphones working the mixer",
+    body: "Studio time with producers who push the song, even if it's your first time in the booth.",
+  },
+  {
+    n: "02",
+    name: "Image",
+    tag: "Branding",
+    img: "/media/trio.webp",
+    alt: "Three artists posing in front of the slatted studio wall",
+    body: "Your look, your story and your presence on every social, shaped so people remember you.",
+  },
+  {
+    n: "03",
+    name: "Growth",
+    tag: "Artist development",
+    img: "/media/duo.webp",
+    alt: "Two artists standing together in the studio",
+    body: "Guidance, coaching and a clear plan, so your career moves faster than it would alone.",
+  },
+  {
+    n: "04",
+    name: "Stage",
+    tag: "Session nights",
+    img: "/media/lounge-wide.webp",
+    alt: "Artist performing for the room in the studio lounge",
+    body: "Perform for a real room at our session nights and get honest feedback from artists and producers.",
+  },
+  {
+    n: "05",
+    name: "Family",
+    tag: "Community",
+    img: "/media/lounge-sofa.webp",
+    alt: "The 5D team relaxing together on the studio sofa",
+    body: "Different styles, one family. No bad mind, no competition. We move together.",
+  },
 ];
 
 export const nav = [
   { href: "#about", label: "About" },
   { href: "#studio", label: "Studio" },
-  { href: "#process", label: "Process" },
+  { href: "#dimensions", label: "The 5D" },
   { href: "#voices", label: "Voices" },
 ];

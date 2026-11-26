@@ -1,6 +1,6 @@
 import About from "@/components/About";
-import Arc from "@/components/Arc";
 import BestOf from "@/components/BestOf";
+import Dimensions from "@/components/Dimensions";
 import Cta from "@/components/Cta";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -22,7 +22,7 @@ export default function Home() {
         <Studio />
         <Sessions />
         <BestOf />
-        <Arc />
+        <Dimensions />
         <Cta />
         <Voices />
       </main>
